@@ -1,0 +1,159 @@
+{
+  "categorias": [
+    {
+      "titulo": "Software",
+      "link": "#",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Programação",
+        "url": "https://www.youtube.com/results?search_query=linguagem+de+programa%C3%A7%C3%A3o"
+      },
+      "videos": [
+        {
+          "titulo": "LIVE: Quando me tornei um Programador Profissional (A História de 16 Programadores)",
+          "url": "https://www.youtube.com/watch?v=eUwiTnK0EA0"
+        },  
+        {
+          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
+          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+        },
+        {
+          "titulo": "API: Dicionário do Programador",
+          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+        }, 
+        {
+          "titulo": "SEO com React",
+          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+        },
+        {
+          "titulo": "Componentização com VanillaJS #AluraMais",
+          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+        },
+        {
+          "titulo": "CRIANDO UM APP COM FLUTTER, SEM SABER NADA DE FLUTTER - PROGRAMADOR BR",
+          "url": "https://www.youtube.com/watch?v=hOsSDTxzrKQ&t=1218s"
+        },
+        {
+          "titulo": "Curso Python #01 - Seja um Programador",
+          "url": "https://www.youtube.com/watch?v=S9uPNppGsGo"
+        }                 
+      ]
+    },
+    {
+      "titulo": "Hardware",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Eletrônico",
+        "url": "https://www.youtube.com/results?search_query=hardware"
+      },
+      "videos": [
+        {
+          "titulo": "Montando um PC completo com Gigabyte AORUS: do hardware aos periféricos!",
+          "url": "https://www.youtube.com/watch?v=EWwP_p3qPzU"
+        },
+        {
+          "titulo": "INCRÍVEL o RESULTADO! SSD em NOTEBOOK (laptop) ANTIGO vale a pena?",
+          "url": "https://www.youtube.com/watch?v=DfJrlnaD4y0"
+        },
+        {
+          "titulo": "Testes de SSDs da Western Digital – WD Green vs WD Blue – Qual vale a pena?",
+          "url": "https://www.youtube.com/watch?v=omAhqYcJirQ&t=364s"
+        },
+        {
+          "titulo": "HARDWARE para TRAPACEAR EM JOGOS: Os cheats quase indetectáveis (Ft. Julio Della Flora)",
+          "url": "https://www.youtube.com/watch?v=1zmLfUzu3S8"
+        }, 
+        {
+          "titulo": "ENTENDA O QUE É O VRM DA PLACA MÃE, POR CAUSA DELE SEU CPU NÃO EXPLODE",
+          "url": "https://www.youtube.com/watch?v=kh2zYNfj06o"
+        }
+      ]
+    },
+    {
+      "titulo": "Futebol",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Jogos",
+        "url": "https://www.youtube.com/results?search_query=futebol"
+      },
+      "videos": [
+        {
+          "titulo": "JOGO HISTÓRICO | Alemanha 0 x 2 Brasil | Melhores Momentos | Final da Copa do Mundo | 30/06/2002",
+          "url": "https://youtu.be/QPcGfQdkR84"
+        },
+        {
+          "titulo": "JOGO HISTÓRICO | NA EMOÇÃO DOS PÊNALTIS, BRASIL VENCE E CONQUISTA MEDALHA INÉDITA | HD 20/08/2016",
+          "url": "https://youtu.be/Jd6_92ZeLdo"
+        },
+        {
+          "titulo": "10/06/2018 - GALO 5x2 Fluminense - (Brasileirão 2018) - Narração do Caixa [ITATIAIA]",
+          "url": "https://www.youtube.com/watch?v=JUrrajYw5lM"
+        },       
+        {
+          "titulo": "TÍTULO SOFRIDO E HISTÓRICO | Atlético-MG 2 (4 x 3) 0 Olímpia | Melhores Momentos | 24/07/2013",
+          "url": "https://www.youtube.com/watch?v=Ky_N6NLX6CM"
+        }
+      ]
+    },
+    {
+      "titulo": "Filmes",
+      "cor": "orange",
+      "link_extra": {
+        "text": "Trailer",
+        "url": "https://www.youtube.com/results?search_query=trailer+filmes"
+      },
+      "videos": [
+        {
+          "titulo": "Interestellar",
+          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+        },
+        {
+          "titulo": "I AM LEGEND 2 (2021) WILL SMITH - TEASER TRAILER CONCEPT 'LAST MAN ON EARTH'" ,
+          "url": "https://www.youtube.com/watch?v=kzoD3ZEipZM"
+        },
+        {
+          "titulo": "A Chegada",
+          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+        },
+        {
+          "titulo": "O CHAMADO DA FLORESTA | Trailer Oficial (2020) Dublado HD",
+          "url": "https://www.youtube.com/watch?v=Xr0BaZp48Eg"
+        }
+      ]
+    },
+    {
+      "titulo": "Games",
+      "cor": "red",
+      "link_extra": {
+        "text": "Trailer",
+        "url": "https://www.youtube.com/results?search_query=trailer+jogos"
+      },
+      "videos": [
+        {
+          "titulo": "THE LAST OF US 2 Trailer Brasileiro Cinematográfico (Novo, 2020) Jogo Vídeo",
+          "url": "https://www.youtube.com/watch?v=_8tfCd2JG_4"
+        },
+        {
+          "titulo": "Assassins Creed Valhalla",
+          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+        },
+        {
+          "titulo": "God of War 4",
+          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+        },
+        {
+          "titulo": "Resident Evil 8",
+          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+        },
+        {
+          "titulo": "Pokémon Let's Go Pikachu/Eevee",
+          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+        },
+        {
+          "titulo": "eFootball PES 2022 - Levando PES a um Nível Completamente Novo - Teaser Trailer",
+          "url": "https://www.youtube.com/watch?v=ED6IeHI782w"
+        }
+      ]
+    }
+  ]
+}
