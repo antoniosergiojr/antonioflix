@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img width="182" alt="ANTONIOFLIX" src="./src/assets/logo.png">
+  <img width="182" alt="ANTONIOFLIX" src="./src/assets/img/Logo.png">
 </h1>
 
 ## ANTONIOFLIX | Imersão React da Alura
@@ -8,7 +8,7 @@ Project developed based on [the week of immersion](https://www.alura.com.br/imer
 
 
 ## 🚀 Index
-- ⚙ [Tecnologies](#-tecnologies)
+- ⚙ [Tecnologies](#-technologies)
 - 💻 [How to run](#-how-to-run)
 
 ---
