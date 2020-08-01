@@ -4,11 +4,11 @@
 
 ## ANTONIOFLIX | Imersão React da Alura
 
-Project developed based on [the week of immersion](https://www.alura.com.br/imersao-react/).
+Project developed based on [the week of immersion](https://www.alura.com.br/imersao-react/) ([github](https://github.com/imersao-alura))
 
 
 ## 🚀 Index
-- ⚙ [Tecnologies](#-technologies)
+- ⚙ [Technologies](#-technologies)
 - 💻 [How to run](#-how-to-run)
 
 ---
