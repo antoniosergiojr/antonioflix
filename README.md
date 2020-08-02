@@ -17,9 +17,16 @@ Project developed based on [the week of immersion](https://www.alura.com.br/imer
   - **Front end**
     - ReactJS
     - Typescript
-    - react-router-dom
-    - axios
-    - react-slick (to make sliders)
+    - React-router-dom
+    - Axios
+    - React-slick (to make sliders)
+    - Styled-components
+  - **Back end**
+    - Json server
+  - **Tool for find and fix problems in your javascript code**    
+    - ESLint
+  - **Task automation with npm**
+    - Concurrently
 
 ---
 
