@@ -3,6 +3,8 @@ import PageDefault from "../../../components/PageDefault";
 import { Link } from "react-router-dom";
 import FormField from "../../../components/FormField";
 import Button from "../../../components/Button";
+import useForm from "../../../hooks/useForm";
+import config from "../../../config";
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -11,27 +13,11 @@ function CadastroCategoria() {
     cor: "",
   };
 
+  const { handleChange, valores, limparForm } = useForm(valoresIniciais);
   const [categorias, setCategorias] = useState([]);
-  const [valores, setValores] = useState(valoresIniciais);
-
-  function setValor(chave, valor) {
-    setValores({
-      ...valores,
-      [chave]: valor,
-    });
-  }
-
-  function handleChange(infosDoEvento) {
-    setValor(
-      infosDoEvento.target.getAttribute("name"),
-      infosDoEvento.target.value
-    );
-  }
 
   useEffect(() => {
-    const urlCategorias = window.location.hostname.includes("localhost")
-      ? "http://localhost:8080/categorias"
-      : "";
+    const urlCategorias = `${config.urlDefault}/categorias`;
     fetch(urlCategorias).then(async (respostaDoServidor) => {
       const resposta = await respostaDoServidor.json();
       setCategorias([...resposta]);
@@ -49,12 +35,11 @@ function CadastroCategoria() {
           infosDoEvento.preventDefault();
           setCategorias([...categorias, valores]);
 
-          setValores(valoresIniciais);
+          limparForm();
         }}
       >
         <FormField
           label="Nome da Categoria"
-          type="text"
           name="nome"
           value={valores.nome}
           onChange={handleChange}

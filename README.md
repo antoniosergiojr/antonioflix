@@ -44,6 +44,6 @@ Project developed based on [the week of immersion](https://www.alura.com.br/imer
     cd antonioflix
     
     # Running web project
-    npm start
+    npm run dev
   ```
 ---
