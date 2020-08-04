@@ -18,7 +18,7 @@ Project developed based on [the week of immersion](https://www.alura.com.br/imer
     - ReactJS
     - Typescript
     - React-router-dom
-    # - Axios
+    <!--- - Axios ---> 
     - React-slick (to make sliders)
     - Styled-components
     - React-flash-message
