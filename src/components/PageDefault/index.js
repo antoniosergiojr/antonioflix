@@ -20,6 +20,7 @@ function PageDefault({ children, paddingAll }) {
   return (
     <>
       <Menu />
+      <div style={{display: "flex", justifyContent: "center", background: "#2a7ae4", color: "#fff"}} id="mensagemLog"></div>
       <Main paddingAll={paddingAll}>{children}</Main>
       <Footer />
     </>

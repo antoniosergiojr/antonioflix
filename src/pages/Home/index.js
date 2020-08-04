@@ -4,6 +4,7 @@ import BannerMain from "../../components/BannerMain";
 import Carousel from "../../components/Carousel";
 import categoriasRepository from "../../repositories/categorias";
 import PageDefault from "../../components/PageDefault";
+import Loading from "../../components/Loading";
 
 function Home() {
   const [dadosIniciais, setDadosInicias] = useState([]);
@@ -21,7 +22,7 @@ function Home() {
 
   return (
     <PageDefault paddingAll={0}>
-      {dadosIniciais.length === 0 && <div>Carregando...</div>}
+      {dadosIniciais.length === 0 && <Loading>Carregando...</Loading>}
       {dadosIniciais.map((categoria, indice) => {
         if (indice === 0) {
           return (

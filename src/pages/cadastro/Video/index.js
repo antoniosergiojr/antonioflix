@@ -6,6 +6,8 @@ import FormField from "../../../components/FormField";
 import useForm from "../../../hooks/useForm";
 import videosRepository from "../../../repositories/videos";
 import categoriasRepository from "../../../repositories/categorias";
+import { render } from "react-dom";
+import FlashMessage from "react-flash-message";
 
 function CadastroVideo() {
   const history = useHistory();
@@ -43,8 +45,13 @@ function CadastroVideo() {
               categoriaId: categoriaEscolhida.id,
             })
             .then(() => {
-              alert("Vídeo cadastrado com sucesso.");
               history.push("/");
+              render(
+                <FlashMessage duration={5000} persistOnHover={true}>
+                  <p>Vídeo cadastrado com sucesso!</p>
+                </FlashMessage>,
+                document.getElementById("mensagemLog")
+              );
             });
         }}
       >
