@@ -41,7 +41,7 @@ Project developed based on [the week of immersion](https://www.alura.com.br/imer
 
   > Running web project
   ```bash
-    # Accesing web project
+    # Accessing web project
     cd antonioflix
     
     # Running web project
