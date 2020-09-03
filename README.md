@@ -4,7 +4,7 @@
 
 ## ANTONIOFLIX | Imersão React da Alura
 
-Project developed based on [the week of immersion](https://www.alura.com.br/imersao-react/) ([github](https://github.com/imersao-alura))
+The web project was developed in [the week of immersion react - Alura](https://www.alura.com.br/imersao-react/) ([github](https://github.com/imersao-alura)) based on Netflix.
 
 
 ## 🚀 Index
