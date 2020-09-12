@@ -6,19 +6,15 @@
 
 The web project was developed in [the week of immersion react - Alura](https://www.alura.com.br/imersao-react/) ([github](https://github.com/imersao-alura)) based on Netflix.
 
-
 ## 📌 Index
 - 💻 [Technologies](#-technologies)
 - 🚀 [How to run](#-how-to-run)
-
 ---
 
 ## 💻 Technologies
   - **Front end**
     - ReactJS
-    - Typescript
     - React-router-dom
-    <!--- - Axios ---> 
     - React-slick (to make sliders)
     - Styled-components
     - React-flash-message
@@ -28,7 +24,6 @@ The web project was developed in [the week of immersion react - Alura](https://w
     - ESLint
   - **Task automation with npm**
     - Concurrently
-
 ---
 
 ## 🚀 How to run
